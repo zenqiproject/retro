@@ -45,3 +45,11 @@ game = Game(
 game.run() # clas Game has already runned whenever you call it. But you can use game.run() as well.
 
 ```
+
+## TODO
+- Add 2d physics 
+- Add particle system
+- Add animation system
+- Add tile map system
+- Add font system, drawing text 
+
