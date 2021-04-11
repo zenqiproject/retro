@@ -24,15 +24,16 @@ class GameScene(Scene):
   def __init__(self):
     super().__init__() # Inherit Scene class
     
-  def ProcessInput(self, events, pressed_keys):
+  def ProcessInput(self, events, pressed_keys): # a function for handling inputs
+  
     for event in events:
       if event.type == KEYDOWN and event.key == K_return:
         print("Enter button is pressed")
     
-   def Update(self):
+   def Update(self): # a function that updates every frame
     pass
     
-   def Render(self, screen):
+   def Render(self, screen): # a function that handle rendering stuff.
     screen.fill((255, 255, 255)) # fill the background to white
     
     
