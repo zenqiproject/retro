@@ -25,7 +25,9 @@ class GameScene(Scene):
     super().__init__() # Inherit Scene class
     
   def ProcessInput(self, events, pressed_keys):
-    pass
+    for event in events:
+      if event.type == KEYDOWN and event.key == K_return:
+        print("Enter button is pressed")
     
    def Update(self):
     pass
