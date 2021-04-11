@@ -3,12 +3,22 @@
 
 a pygame framework to create 2d games easily
 
+## Installation
+
+```bash
+$ pip install retrogame
+```
+(currently unavailable)
+
+
 ## Usage
 
 ```python
 
 from retro2d.game import Game
 from retro2d.scene import Scene
+
+
 
 class GameScene(Scene):
   def __init__(self):
