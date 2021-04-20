@@ -31,3 +31,9 @@ class Scene:
   
   def Render(self, screen):
     pass
+
+  def ChangeScene(self, next_scene):
+    self.next = next_scene
+    
+  def Terminate(self):
+    self.ChangeScene(None)

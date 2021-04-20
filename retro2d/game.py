@@ -17,7 +17,7 @@
 import pygame
 from pygame.locals import *
 import argparse
-from scene import Scene
+from .scene import Scene
 import sys
 
 class Game:
@@ -99,6 +99,7 @@ class Game:
                 
                 if quit:
                     self.scene.Terminate()
+                    
                 else:
                     filtered_events.append(event)
 
