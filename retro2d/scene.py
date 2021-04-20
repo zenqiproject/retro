@@ -16,24 +16,24 @@
 
 
 class Scene:
-  """
-  Main class for handling scenes.
-  """
+	"""
+	Main class for handling scenes.
+	"""
   
-  def __init__(self):
-    pass
+	def __init__(self):
+		pass
+  	
+	def ProcessInput(self, events, pressed_keys):
+		pass
   
-  def ProcessInput(self, events, pressed_keys):
-    pass
+	def Update(self):
+		pass
   
-  def Update(self):
-    pass
-  
-  def Render(self, screen):
-    pass
+	def Render(self, screen):
+		pass
 
-  def ChangeScene(self, next_scene):
-    self.next = next_scene
-    
-  def Terminate(self):
-    self.ChangeScene(None)
+	def ChangeScene(self, next_scene):
+		self.next = next_scene
+	
+	def Terminate(self):
+		self.ChangeScene(None)
