@@ -15,8 +15,8 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 class Physics:
-  """
-  Main class for handling Physics
+  	"""
+  	Main class for handling Physics
   
-  """
+  	"""
   
